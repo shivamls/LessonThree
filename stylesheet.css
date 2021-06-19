@@ -68,6 +68,10 @@ hr{
     color: white;
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .nav .nav_pills{
     text-align: right;
 }
@@ -95,7 +99,8 @@ hr{
 /* sections */
 
 .section{
-    padding: 2rem;
+    padding: 1.5rem;
+    text-align: center;
 }
 .section h1{
     text-align: center;
