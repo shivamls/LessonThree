@@ -21,6 +21,10 @@ hr{
     margin: auto
 }
 
+.section .container .spanning{
+    color: var(--primary-colour);
+}
+
 .container-centre{
     max-width: 600px;
 }
@@ -33,7 +37,9 @@ hr{
 .link-primary{
     background-color: var(--primary-colour);
     color: var(--white);
-    border-radius: 90px;
+    border-radius: 10px;
+    padding: 0.5rem, 1rem;
+    margin-top: 1rem;
 }
 
 .link-secondary{
@@ -119,6 +125,7 @@ hr{
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
+    /* position: fixed; */
 }
 
 .footer .link{
